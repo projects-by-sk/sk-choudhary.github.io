@@ -1,1 +1,200 @@
-<!DOCTYPE html> <html> <head> <title>SK Choudhary</title> </head> <body> <h1>Assistant Professor</h1> <p>Email: suresh.kumar1@thapar.edu</p> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SK Choudhary</title>
+    <style>
+
+         .profile-text {
+    font-size: 60px;
+    line-height: 1.6;
+}
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+        }
+
+        /* ===== Header ===== */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            border-bottom: 1px solid #ddd; /* light boundary */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #222;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== Main Content ===== */
+        .container {
+            font-size: 60px;
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+        /* Left section */
+     .left {
+    width: 30%;
+    display: flex;
+         font-size: 40px;
+    justify-content: center;   /* center profile inside 30% */
+}
+
+
+        .profile-card {
+    text-align: center;        /* center text under photo */
+}
+        .blue-text {
+    color: #1a4fb3;   /* academic blue */
+}
+        .bold-text {
+    font-weight: 600;
+}
+.maroon-text {
+    color: #7a1f2b;
+    font-weight: 600;
+}
+
+      .photo-box {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 15px auto;  /* ensures text comes just below */
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+        .left p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+
+        /* Right section */
+      .right {
+    width: 70%;
+    text-align: justify;
+    font-size: 20px;      /* matches Image-2 */
+    line-height: 1.7;
+}
+        .right m {
+   text-decoration: underline;
+            color: inherit;
+}
+
+        
+        .right a {
+    text-decoration: underline;
+    font-weight: 600;
+    color: inherit;   /* uses normal text color */
+}
+        .right a:hover {
+    text-decoration: underline;
+}
+
+        .right p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+      
+        .site-title {
+    margin-left: 150px;   /* adjust: 10–30px */
+}
+
+        /* Responsive (optional) */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .left, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="site-title">Suresh</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">CV</a>
+        <a href="Research-Group.html"><span class="blue-text">Research Group</span></a>
+        <a href="Teaching.html">Teaching</a>
+        <a href="Awards.html">Awards</a>
+        <a href="Publications.html">Publications</a>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- Left Side -->
+    <div class="left">
+    <div class="profile-card">
+        <div class="photo-box">
+            <img src="SK.jpeg" alt="Profile Photo">
+        </div>
+
+        <p class="profile-text">
+            <span class="bold-text">Dr. S.K. Choudhary </span><br>
+            Assistant Professor, CSE, <a href="https://www.thapar.edu" target="_blank">TIET Patiala</a><br>
+            PhD, Dept. of CSE - <a href="https://www.iitm.ac.in" target="_blank">IIT Madras</a> <br>
+            <br>
+            <br>
+            <i>Email: suresh.kumar1@thapar.edu</i> <br>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suresh007@alumni.iitm.ac.in</i>
+        </p>
+    </div>
+</div>
+     <!-- Right Side -->
+    <div class="right">
+    <p>
+        I am an Assistant Professor in the
+        Computer Science and Engineering Department
+        at Thapar Institute of Engineering and Technology (TIET), Patiala.
+        Prior to this, I worked in the Cyber Security Wing at
+        <m href="https://www.stqc.gov.in/" target="_blank">STQC</m>, MeitY (Government of India).
+        I completed my Ph.D. from
+        <span class="blue-text">Indian Institute of Technology Madras</span>,
+        under the supervision of Prof. P. Sreenivasa Kumar.
+    </p>
+    <p>
+        <span class="maroon-text">Research Domains:</span> Artificial Intelligence, Applied Ontology, Natural Language Understanding (NLU)
+    </p>
+        <p>
+        <span class="maroon-text">Ongoing Research Activities</span>:<br>
+            Currently, I am focused on NLU projects. Applied Ontology also remains my core research interest, and I am looking for a suitable candidate to explore a few promising directions.<br>
+            1. Honey-Prompts for Detecting Malicious AI Interactions<br>
+            2. Repetition-Aware Abstractive Text Summarization<br>
+            3. Adaptive Skill Unlearning  <br>
+            4. Erasing Target and Correlated Knowledge in LLMs
+    </p>
+        <p>
+        <span class="maroon-text">Interdisciplinary Project(s)</span>:<br>
+            1. Astro-SSL : At the Crossroads of Astrophysics and Machine Learning<br>
+            (in-collboration with researchers from <a href="https://www.unistra.fr" target="_blank">University of Strasbourg</a> and <a href="https://www.nasa.gov" target="_blank">NASA</a>)   
+    </p>
+</div>
+
+</body>
+</html>
